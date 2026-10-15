@@ -1,0 +1,579 @@
+{
+  "schemaVersion": 1,
+  "release": "V3.1",
+  "packageVersion": "3.1.0",
+  "snapshotCreatedAt": "2026-10-15T14:28:25.156Z",
+  "source": "Published SKC Universe static release manifest",
+  "sourceManifestSha256": "729AAE838B4FBF9F4E202C8E32330D8B0FC9880B71E6DE8C0F451A6A05B809BA",
+  "sourceManifestFileCount": 187,
+  "migrationFileCount": 112,
+  "migrationFiles": [
+    {
+      "path": "migration/CREDITS.md",
+      "bytes": 6514,
+      "sha256": "94A1CAF706B066AE7E185826F7E298A655ECA64255B9D438E63603CB9328E0D3"
+    },
+    {
+      "path": "migration/UPSTREAM-LICENSE.txt",
+      "bytes": 1090,
+      "sha256": "3411BAEF2EC1ECDB8F26578B77CB1C8F7109A6A7A26FF689B12E9B0D17504988"
+    },
+    {
+      "path": "migration/UPSTREAM-README.md",
+      "bytes": 34030,
+      "sha256": "CEA381DBAD5BB2000C7E2D39F5E7D0AD1492ED986188B7FEA8AA38144C65CA1D"
+    },
+    {
+      "path": "migration/assets/earth/earth_atmos_2048.jpg",
+      "bytes": 512606,
+      "sha256": "2FAA400D1EADE3BC44CAF6750D1B772BD9BBB6D87362C02BC7C3304E78FA0A9D"
+    },
+    {
+      "path": "migration/assets/earth/earth_bump_roughness_clouds_4096.jpg",
+      "bytes": 1508389,
+      "sha256": "0796F4211C209D1AFE9E26A06A283CDC21434430A780A25457B2417568A8591E"
+    },
+    {
+      "path": "migration/assets/earth/earth_clouds_1024.png",
+      "bytes": 260222,
+      "sha256": "7D3B82EF6B3FEB506FC06F02A744AED3D864E23E7417075005F4082A7FF935A4"
+    },
+    {
+      "path": "migration/assets/earth/earth_day_4096.jpg",
+      "bytes": 473093,
+      "sha256": "CD7712D3E891425D9948EA5AC18D3BB1E7E834EA038188587897E689A7B35D0F"
+    },
+    {
+      "path": "migration/assets/earth/earth_lights_2048.png",
+      "bytes": 734910,
+      "sha256": "3CC6972D1D5B6310F33EA6EF4CC14A38F1DD141A91D26888206889327D983D7B"
+    },
+    {
+      "path": "migration/assets/earth/earth_night_4096.jpg",
+      "bytes": 267061,
+      "sha256": "17A868F79C7BE40FA1F557E6114D7889D907F18F7A3FCE51F33B0B830EF50242"
+    },
+    {
+      "path": "migration/assets/earth/earth_specular_2048.jpg",
+      "bytes": 223421,
+      "sha256": "2DF48906732D7A458B2D0A7CDEC51A829262307C6BDEE4CFDF079A4DD7C71C69"
+    },
+    {
+      "path": "migration/assets/earth/moon_1024.jpg",
+      "bytes": 238093,
+      "sha256": "FCB0F1F5548E6E18D40063DD55C6AACD3DAEDF2407B181DAB85B61E22BF9FE57"
+    },
+    {
+      "path": "migration/assets/models/hubble.glb",
+      "bytes": 1694988,
+      "sha256": "E5BA4DE15C7D359AC8FA1AB7E286AFF42DEC09C0FADAE3DB99252587F39FA384"
+    },
+    {
+      "path": "migration/assets/models/iss.glb",
+      "bytes": 476992,
+      "sha256": "2BA4427413B0DD89A33D2ACAF962DEA8A96A3B1D8DCEDA05CC7AAD547FFD3D16"
+    },
+    {
+      "path": "migration/assets/models/launcher.glb",
+      "bytes": 198480,
+      "sha256": "411AD36727A4290123431E77CA7A4622DCD534E2E76EB1134DC19FC07DD5BE65"
+    },
+    {
+      "path": "migration/assets/planets/ceres_2k.jpg",
+      "bytes": 1127678,
+      "sha256": "EE59B2C7AA399DFDC810078C723373670133FE8505E439601DFF4CE6F3CC5AD8"
+    },
+    {
+      "path": "migration/assets/planets/earth_clouds_4k.jpg",
+      "bytes": 2076580,
+      "sha256": "F7E0C589DD01145609C6E170783B6A37929C8E6208C4D61FF781C7BCCAE1609A"
+    },
+    {
+      "path": "migration/assets/planets/earth_day_4k.jpg",
+      "bytes": 987479,
+      "sha256": "E08776478C7070F368EC46829828256B7F5F7BC4DE1A78C0729BCF643A771F4B"
+    },
+    {
+      "path": "migration/assets/planets/eris_2k.jpg",
+      "bytes": 1070441,
+      "sha256": "0F19F080AA7B4B047A1C6C5E169D62C38A5763E6A3D7724180CB471000FB04FB"
+    },
+    {
+      "path": "migration/assets/planets/haumea_2k.jpg",
+      "bytes": 900211,
+      "sha256": "6FC091868A7C5EA1B8A7D4D76CE946695E98358F4C4277A2C88F76C36FC95CA1"
+    },
+    {
+      "path": "migration/assets/planets/jupiter_4k.jpg",
+      "bytes": 1110444,
+      "sha256": "4EFED11F627A6DB7C3982C9A1E3699FDF89550DD0482E1931EF04D2BC6DF7065"
+    },
+    {
+      "path": "migration/assets/planets/makemake_2k.jpg",
+      "bytes": 1179218,
+      "sha256": "796B654648DF0B241AD2E03CE60677BD7FD854C98FD8FF8B5C5F9750C01BE082"
+    },
+    {
+      "path": "migration/assets/planets/mars_2k.jpg",
+      "bytes": 750547,
+      "sha256": "2D187F3E77A98EAA8CEA5F4CC722F633C122EF170B9E94ACE6B5FB6CBC3F8E01"
+    },
+    {
+      "path": "migration/assets/planets/mercury_2k.jpg",
+      "bytes": 872555,
+      "sha256": "5A5C80607F643496BAC9A631E71957DEF35ED788895F18B678AC849C2B38E48A"
+    },
+    {
+      "path": "migration/assets/planets/moon_2k.jpg",
+      "bytes": 1053869,
+      "sha256": "2764BA6535EA0481A062846EE033CC7A909DAE05B31A8FD13F3E98F3A7FD92BD"
+    },
+    {
+      "path": "migration/assets/planets/neptune_2k.jpg",
+      "bytes": 241580,
+      "sha256": "CB42EA82709741D28B0AF44D8B283CBC6DBD0C521A7F0E1E1E010ADE00977DF6"
+    },
+    {
+      "path": "migration/assets/planets/pluto_2k.jpg",
+      "bytes": 400987,
+      "sha256": "08866F4255506F703897C357EB1B47FBBA1F62D194D74D0234D99060A544E600"
+    },
+    {
+      "path": "migration/assets/planets/saturn_2k.jpg",
+      "bytes": 132865,
+      "sha256": "E2CB0C59BEFC055416943222ED15CB6369B8DCED08CA3C1F94BD7F6083B798DC"
+    },
+    {
+      "path": "migration/assets/planets/saturn_ring.png",
+      "bytes": 19227,
+      "sha256": "1563D6DC063EB2A0293BBFFC4C695C5E73B70AEC884A279BE36EA250198E9223"
+    },
+    {
+      "path": "migration/assets/planets/sun_2k.jpg",
+      "bytes": 822427,
+      "sha256": "FF0F076BA65E03B5AB518451BC96699325BE38E3CCBDD5869EE1C00F3A0C8816"
+    },
+    {
+      "path": "migration/assets/planets/uranus_2k.jpg",
+      "bytes": 77751,
+      "sha256": "D15239D46F82D3EA13D2B260B5B29B2A382F42F2916DAE0694D0387B1204A09D"
+    },
+    {
+      "path": "migration/assets/planets/venus_atmosphere_2k.jpg",
+      "bytes": 229696,
+      "sha256": "225012AD4911730605C4E189CA2A3BF674FCE50CC48AAB4102B936B47D6991AC"
+    },
+    {
+      "path": "migration/assets/sky/milkyway_4k.jpg",
+      "bytes": 2910312,
+      "sha256": "C1B6A53F2C98F7BA2206C7403A315DB3FBDFEE838E10026E6F08BD0FC1C2F80C"
+    },
+    {
+      "path": "migration/assets/sky/milkyway_top_2k.jpg",
+      "bytes": 676732,
+      "sha256": "C570500DB8B77C3651C82EA601E23F0C90562890CF17C160EEF3F7E55C0CB5EA"
+    },
+    {
+      "path": "migration/assets/sky/stars.bin",
+      "bytes": 1008000,
+      "sha256": "5588392AF7E2D81EDB097836260009DDE46C9F8FF9981E6D2C947AF9497F0D4B"
+    },
+    {
+      "path": "migration/assets/textures/aerial_ground_rock_diff_1k.jpg",
+      "bytes": 599629,
+      "sha256": "C14761998B32630DD193B0FBFD31C8C6F5A144A701B84F87F9D7C33596CC554F"
+    },
+    {
+      "path": "migration/assets/textures/blue_metal_plate_arm_1k.jpg",
+      "bytes": 419910,
+      "sha256": "9321B539FE9CF0136EA04C3405B95AE82383F31C258B9C0E37FF8A1E577B637F"
+    },
+    {
+      "path": "migration/assets/textures/blue_metal_plate_diff_1k.jpg",
+      "bytes": 395923,
+      "sha256": "A0162BFFCE47D4A35613A12AF22571B28C18412DC5805CBB69EAC343554EF750"
+    },
+    {
+      "path": "migration/assets/textures/blue_metal_plate_nor_gl_1k.jpg",
+      "bytes": 238025,
+      "sha256": "970F0273C9E2E3B4FC8338BFD58A28C413B70AC4D1734D9DC8A136724BDE56E6"
+    },
+    {
+      "path": "migration/assets/textures/gray_rocks_arm_1k.jpg",
+      "bytes": 827806,
+      "sha256": "CEAEF1B0EE229A4C2ED3905B084D3015A39A59E5175EA936BB761417ED059C76"
+    },
+    {
+      "path": "migration/assets/textures/gray_rocks_diff_1k.jpg",
+      "bytes": 1014209,
+      "sha256": "4C3B6FADA26A9B564CA110AD47BCA5921ECEEFC611D970159CE559C3C50728A0"
+    },
+    {
+      "path": "migration/assets/textures/gray_rocks_nor_gl_1k.jpg",
+      "bytes": 1266242,
+      "sha256": "1922B18E09A95BB782794163117EA47D62771DD59501085CC95AB10081107A9D"
+    },
+    {
+      "path": "migration/assets/textures/metal_plate_02_arm_1k.jpg",
+      "bytes": 1075839,
+      "sha256": "E099A8385D53F4A515B7E0CE94F85D88657FCAC49C23979474F5394B22DD550B"
+    },
+    {
+      "path": "migration/assets/textures/metal_plate_02_diff_1k.jpg",
+      "bytes": 625917,
+      "sha256": "6E80877D0E9D5973D96298C6091DF7ACE906B0A6760AFC4F3592E4855F3F1D4C"
+    },
+    {
+      "path": "migration/assets/textures/metal_plate_02_nor_gl_1k.jpg",
+      "bytes": 183264,
+      "sha256": "58736FBB8AA4FC6690CF8152B174DB65CAF22A766375B625FB0087E1BC955BC7"
+    },
+    {
+      "path": "migration/assets/textures/painted_metal_shutter_arm_1k.jpg",
+      "bytes": 606809,
+      "sha256": "26A49A8B60DD2E1FDB325C1488D55D2E6E7362F4505E400AC2243BF0EC67CA56"
+    },
+    {
+      "path": "migration/assets/textures/painted_metal_shutter_diff_1k.jpg",
+      "bytes": 627333,
+      "sha256": "278394AABCB5A5BD560D9904358682ACC5AF23666B22BD1F12558789DA4AA4D2"
+    },
+    {
+      "path": "migration/assets/textures/painted_metal_shutter_nor_gl_1k.jpg",
+      "bytes": 730726,
+      "sha256": "7545D778669C55E3E9BDC89355CE7190077C3FFDFB324E988FF9803A5BAE5A46"
+    },
+    {
+      "path": "migration/classic.html",
+      "bytes": 10808,
+      "sha256": "DE153BF251720BC258F32E66B5BA752057A696A65E7421F4DD303E973C1388CE"
+    },
+    {
+      "path": "migration/credits.html",
+      "bytes": 4625,
+      "sha256": "867C96B32F30E76A2F16E0B0C4066FAC171659ADF1AFFD497295B435734B7BD0"
+    },
+    {
+      "path": "migration/css/app.css",
+      "bytes": 19653,
+      "sha256": "45A2224E1C26CCFDD338FA55E83A2C3F7B3EDF61A82A084A7C278F34BD333C64"
+    },
+    {
+      "path": "migration/css/beyond.css",
+      "bytes": 41958,
+      "sha256": "D965F1906D1D1F96296421B6449A04DA2D14D42C39D08480FF76A42640A26EA6"
+    },
+    {
+      "path": "migration/fonts/JetBrainsMono-0.woff2",
+      "bytes": 31432,
+      "sha256": "83C005D49D8A6A50474C73A5A36AC0468076E9C4A29DA7BDB14995D80560A5BE"
+    },
+    {
+      "path": "migration/fonts/JetBrainsMono-OFL.txt",
+      "bytes": 4399,
+      "sha256": "B2FE5E8987594E9FFD1D2CA52A2F5D73EB8335243893C5D6254B5AD69269591D"
+    },
+    {
+      "path": "migration/fonts/Orbitron-1.woff2",
+      "bytes": 11800,
+      "sha256": "C25A9F9DA5D9F3DB1BF2A01474722DC9B377675B7BBAB6D0DFDA6902794FD1ED"
+    },
+    {
+      "path": "migration/fonts/Orbitron-OFL.txt",
+      "bytes": 4426,
+      "sha256": "AB609B0E110D622435FF337CDF233288556E011BBF9BD0550BE98846C0630819"
+    },
+    {
+      "path": "migration/fonts/Rajdhani-2.woff2",
+      "bytes": 14976,
+      "sha256": "759A9000E47B028799D7A4CA602634A7AC7ADF415775DF070A335D18D9B66F38"
+    },
+    {
+      "path": "migration/fonts/Rajdhani-3.woff2",
+      "bytes": 15084,
+      "sha256": "23AFDB9B5B89B878FAB04D80CC30BF41BB4F3F7E8BE88E5F16A7CC7671CDB2DC"
+    },
+    {
+      "path": "migration/fonts/Rajdhani-4.woff2",
+      "bytes": 15732,
+      "sha256": "433A7007E4747A02A790167A6EFA2625855F013970BA49B9B739A5D3DB8B2601"
+    },
+    {
+      "path": "migration/fonts/Rajdhani-5.woff2",
+      "bytes": 15688,
+      "sha256": "5B7E4A6F97163C2636724D4DE90304FC895653DCFE64C67A7A22F26331CA5C5F"
+    },
+    {
+      "path": "migration/fonts/Rajdhani-OFL.txt",
+      "bytes": 4373,
+      "sha256": "F62EF357D3A1C3D27EDD35A6E1BA350E8A8D13499797964EEADEFBF0B3B15D1F"
+    },
+    {
+      "path": "migration/index.html",
+      "bytes": 7586,
+      "sha256": "A1109060312EEBE7B998DC9354DEE501236A55D65B8746EC2BB8BACD7B6A8D47"
+    },
+    {
+      "path": "migration/js/app.js",
+      "bytes": 175711,
+      "sha256": "33A70AF0F2F2D54253651E35119DEF3305EC7124759F9E90E3213520B6E4E168"
+    },
+    {
+      "path": "migration/js/beyond/audio.js",
+      "bytes": 5728,
+      "sha256": "8DC7D525FF036C76E25B84D54BF33F9AFE9534C287FE85EEE2C7021A28F72D7C"
+    },
+    {
+      "path": "migration/js/beyond/craft.js",
+      "bytes": 21070,
+      "sha256": "532639C069D0D0E307BE929F5260686C40A9076F349991E6EDB8C4B5F794AAB3"
+    },
+    {
+      "path": "migration/js/beyond/dash.js",
+      "bytes": 21675,
+      "sha256": "FB74C9C1D36A4FB90B9884728E62B4549E006C4F834EF40CF125B3ED7DA650C2"
+    },
+    {
+      "path": "migration/js/beyond/earth.js",
+      "bytes": 100343,
+      "sha256": "35CC1EA06FCA513B6B2801385046F3E400FDD463D8D5354BEA7B67E30560BA4E"
+    },
+    {
+      "path": "migration/js/beyond/galaxy.js",
+      "bytes": 41340,
+      "sha256": "343B124F2C26F5A411ABFC5448A9B9B51CAB4444DA0E643075AEEEB1996CD57D"
+    },
+    {
+      "path": "migration/js/beyond/main.js",
+      "bytes": 73158,
+      "sha256": "04ADEEEAEFD02F2986B983BF51E7565F45EB5D593792722327F6187CC2CA77D4"
+    },
+    {
+      "path": "migration/js/beyond/post.js",
+      "bytes": 25728,
+      "sha256": "7D9B39EDDCD4265615796AEC9D186DEA60694AF4B42C79C53EC411B7D759469B"
+    },
+    {
+      "path": "migration/js/beyond/solar.js",
+      "bytes": 49159,
+      "sha256": "B47824F88C1B621A29C94939449672C0B027D4D32F8AE4383557F0C9C4AAFB5A"
+    },
+    {
+      "path": "migration/js/beyond/story.js",
+      "bytes": 27989,
+      "sha256": "1F81E268907886AA1B4856F2A310DB951274AD99F8DA7A9421F88C173FA7DAE5"
+    },
+    {
+      "path": "migration/js/beyond/util.js",
+      "bytes": 8890,
+      "sha256": "EB29FA35121A3305FF86486201A25697B01DB6CB8437E0374806E4CE2DCC736D"
+    },
+    {
+      "path": "migration/js/boot.js",
+      "bytes": 1108,
+      "sha256": "DAE7F88224B95E810237D36A1F6A2CC64AD4DEE9859E4B055D0F24BF28D136CB"
+    },
+    {
+      "path": "migration/js/fx/aerial.js",
+      "bytes": 2826,
+      "sha256": "0BCC30793C8CB1891F47380CEC03B65E39854F2A38AFA99D38BA2C063DC83D0F"
+    },
+    {
+      "path": "migration/js/fx/atmosphere.js",
+      "bytes": 5461,
+      "sha256": "469C1C0F4A6A71C1C6FDF0C57C756D17EF57B2D80961A409A30B7E3F181F44E7"
+    },
+    {
+      "path": "migration/js/fx/kit.js",
+      "bytes": 4336,
+      "sha256": "61416D5062C5651334C73482070A06543BB9A9E9A33D2A815196998EE59223C0"
+    },
+    {
+      "path": "migration/js/fx/models.js",
+      "bytes": 4895,
+      "sha256": "ECB4E62AB8C35F7A87C198117AFFFF1666EEA7AA8F8D0BF1BB9DB0B512D646D8"
+    },
+    {
+      "path": "migration/js/fx/shock.js",
+      "bytes": 3433,
+      "sha256": "DA9171FBCEE0310C358EAFA249D0FCA7147573C5E85ED3F7ADD78199E3ABC9AF"
+    },
+    {
+      "path": "migration/js/fx/smoke.js",
+      "bytes": 9113,
+      "sha256": "211427C0162E3040CBE15B198C3F57C1204D6E8FB095C45DFB9C8DA4DA13229D"
+    },
+    {
+      "path": "migration/js/fx/triplanar.js",
+      "bytes": 9344,
+      "sha256": "CA4712DA8D3D0B2F9FD4987F3A0675FA8170595CE9B6A7F451BB55D2E5CAB862"
+    },
+    {
+      "path": "migration/js/fx/volplume.js",
+      "bytes": 7509,
+      "sha256": "261F74CF8CF92BC02F781B92E65CE6C1818DB29347EFEA2A0F15291A34EBCB8B"
+    },
+    {
+      "path": "migration/js/skc/aurora.js",
+      "bytes": 9676,
+      "sha256": "64EE31D8CD105D72BC74DFCA266A5C84B45E51614CF23C97DC569576B434BE14"
+    },
+    {
+      "path": "migration/js/skc/experience.js",
+      "bytes": 5056,
+      "sha256": "C5CD6ACAC91BBD21B6A42087EF583801B8EBFE48A668030B5E00F470ED3A402D"
+    },
+    {
+      "path": "migration/poster.jpg",
+      "bytes": 173618,
+      "sha256": "3803B89F536255B75A1D7DAF3432E9AFF74E25D8535A49420707FA5EF5F710AE"
+    },
+    {
+      "path": "migration/preview.jpg",
+      "bytes": 138291,
+      "sha256": "8086AA33B21276E064DDE73F1CF9E5035C02BCFD3EF0749E8B264FEB154F2999"
+    },
+    {
+      "path": "migration/skc-ui.js",
+      "bytes": 32326,
+      "sha256": "EEB229A57A20CE6C933F1485899EA4AF7A8E24C7A693721CE9D02A3A24553C3F"
+    },
+    {
+      "path": "migration/skc.css",
+      "bytes": 19131,
+      "sha256": "A7B42243EF89303DF6EDAA9B2B4C95F54DC72B279A6A54DAD1A311E9102A1639"
+    },
+    {
+      "path": "migration/vendor/three/LICENSE",
+      "bytes": 1102,
+      "sha256": "A70D6DC2D2A6464EE9EE503B1881D5AA884ABDEC63B4C7064F0C5AD827A7D2B4"
+    },
+    {
+      "path": "migration/vendor/three/build/three.module.js",
+      "bytes": 1326016,
+      "sha256": "C6EACAE1EC5FD832160227CA7441311C8B30DEE0419AF87954FB9DF6D105BF1F"
+    },
+    {
+      "path": "migration/vendor/three/examples/jsm/controls/OrbitControls.js",
+      "bytes": 31285,
+      "sha256": "61D15E0B6249A9DE000690276968E355F2855870657C9F4290C33163B6AB6F49"
+    },
+    {
+      "path": "migration/vendor/three/examples/jsm/exporters/GLTFExporter.js",
+      "bytes": 81023,
+      "sha256": "CD1109E539E11BCA310FDEB87E5185FA2EBF25ED2E946E8F73D5165A1F3653EA"
+    },
+    {
+      "path": "migration/vendor/three/examples/jsm/libs/draco/gltf/draco_decoder.js",
+      "bytes": 512498,
+      "sha256": "A47CD7C84911C5175BB0511C01BA41DDAFB71873FD391F055DEF514398F5E7C4"
+    },
+    {
+      "path": "migration/vendor/three/examples/jsm/libs/draco/gltf/draco_decoder.wasm",
+      "bytes": 192420,
+      "sha256": "A680D927BED9CB864DDBD63521868891AF2BFBE755092761B4837487618DF8AC"
+    },
+    {
+      "path": "migration/vendor/three/examples/jsm/libs/draco/gltf/draco_wasm_wrapper.js",
+      "bytes": 58572,
+      "sha256": "F3AB54E2FEABFE8BD37928B5F400BC10230DCC278C7E70BCA5E025F63519D960"
+    },
+    {
+      "path": "migration/vendor/three/examples/jsm/libs/fflate.module.js",
+      "bytes": 85765,
+      "sha256": "2CFB815CDE8B1FDE15E6EF2D98079CDBDB5452F7F0F7D91ED8DF069E64D0C3A6"
+    },
+    {
+      "path": "migration/vendor/three/examples/jsm/loaders/DRACOLoader.js",
+      "bytes": 14241,
+      "sha256": "9DB9E910A2005BF815D7FA1493127600972C92AAEE036DD515D2F314843E73DD"
+    },
+    {
+      "path": "migration/vendor/three/examples/jsm/loaders/EXRLoader.js",
+      "bytes": 57290,
+      "sha256": "AFB251B04814E5EBA23BE45F5A46AFC3475A47231A58A2AA1846B8C64257910A"
+    },
+    {
+      "path": "migration/vendor/three/examples/jsm/loaders/GLTFLoader.js",
+      "bytes": 113185,
+      "sha256": "861E11856B68CE46B0C21506B1FA7E509B81F1ABAF7B07E6E44FA52726506A31"
+    },
+    {
+      "path": "migration/vendor/three/examples/jsm/postprocessing/EffectComposer.js",
+      "bytes": 4882,
+      "sha256": "0DBB9C044721BE861E8B7F17A273475C47388CEE6FD16474C56D715DF2FE65B2"
+    },
+    {
+      "path": "migration/vendor/three/examples/jsm/postprocessing/MaskPass.js",
+      "bytes": 2335,
+      "sha256": "B0360737A0FA5A3416F062915A16B0448A93F26E01D0E559D9C9CFAC8B9CF46D"
+    },
+    {
+      "path": "migration/vendor/three/examples/jsm/postprocessing/OutputPass.js",
+      "bytes": 2493,
+      "sha256": "4C3A3F50DB2829DA7275AB1B3C4AFB1C58C968D67CC1D3784207A49792F16888"
+    },
+    {
+      "path": "migration/vendor/three/examples/jsm/postprocessing/Pass.js",
+      "bytes": 1801,
+      "sha256": "E142845FDD6A19D979C6F064DD71E5F5B7A4D35BD6EB4F5AF46EDF2EABFF9DA9"
+    },
+    {
+      "path": "migration/vendor/three/examples/jsm/postprocessing/RenderPass.js",
+      "bytes": 2014,
+      "sha256": "3803C4931557A095252DC1165E5724E100F55713F43B55FE00C8F31EFAB76A9D"
+    },
+    {
+      "path": "migration/vendor/three/examples/jsm/postprocessing/SMAAPass.js",
+      "bytes": 49666,
+      "sha256": "2E012ECF67BF002A72232B7DEB21788C9A849993414F76DFEC75E48EA749133D"
+    },
+    {
+      "path": "migration/vendor/three/examples/jsm/postprocessing/ShaderPass.js",
+      "bytes": 1653,
+      "sha256": "84D3854FD7E42A4A0AEDDD6C58C902AD0B3AEA82BF7D5E7CB76C24248ACFB0B7"
+    },
+    {
+      "path": "migration/vendor/three/examples/jsm/postprocessing/UnrealBloomPass.js",
+      "bytes": 12821,
+      "sha256": "1C9722BC4C2877088BFE022DCFE509F67CB08E6010673E7A432C0D550CCD3DAE"
+    },
+    {
+      "path": "migration/vendor/three/examples/jsm/shaders/CopyShader.js",
+      "bytes": 616,
+      "sha256": "5827504ED05E7AE252E75F53B3FB10CAA96EC21E70A78143E9EF90D430F1107E"
+    },
+    {
+      "path": "migration/vendor/three/examples/jsm/shaders/LuminosityHighPassShader.js",
+      "bytes": 1258,
+      "sha256": "588F7563A93314B42F7D8AE286B3589F688100BF95D5364763E1F1991A893ECD"
+    },
+    {
+      "path": "migration/vendor/three/examples/jsm/shaders/OutputShader.js",
+      "bytes": 1474,
+      "sha256": "BC1EE7A0C63DDBAC9E3E7167F3F8385B86C6344C9EC807213977AA05ABD05B14"
+    },
+    {
+      "path": "migration/vendor/three/examples/jsm/shaders/SMAAShader.js",
+      "bytes": 15094,
+      "sha256": "C4993ADC47D70E094FA645AD2C902C44A507A950FC4566079FE87E8FC63235D8"
+    },
+    {
+      "path": "migration/vendor/three/examples/jsm/utils/BufferGeometryUtils.js",
+      "bytes": 33281,
+      "sha256": "39D77EF7E98621538FFB27530AE2B69389245B7051661E08CFC8B99EFB88D2C6"
+    },
+    {
+      "path": "migration/vendor/three/examples/jsm/utils/TextureUtils.js",
+      "bytes": 2465,
+      "sha256": "D2AF1CB65AE8976CD444B7C222F0EFE325A72E87553D5B9EA81E2E892FBECE43"
+    }
+  ],
+  "supportFiles": [
+    {
+      "path": "assets/skc-logo.png",
+      "bytes": 318154,
+      "sha256": "6BEDBA0262DFF9A097EEA4C3FD2C5781BDD08589537A59E8E21779F2F406C130"
+    }
+  ]
+}
